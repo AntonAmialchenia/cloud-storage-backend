@@ -1,7 +1,0 @@
- async getGroup(token) {
-    const { data } = await axios.get("/manager/course/", {
-      headers: { Authorization: `Bearer ${token}` },
-    });
-
-    return data;
-  },
